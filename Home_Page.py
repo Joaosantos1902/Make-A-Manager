@@ -7,11 +7,11 @@ import Switch_Stats as sws
 
 
 config = {
-    "apiKey": "AIzaSyAM25ZltTApK4lsyForPw4donBuM6RWC5E",
-    "databaseURL": "https://users-lababerto-default-rtdb.europe-west1.firebasedatabase.app/",
-    "authDomain": "users-lababerto.firebaseapp.com",
-    "projectId": "users-lababerto",
-    "storageBucket": "users-lababerto.appspot.com",
+    "apiKey": "",
+    "databaseURL": "",
+    "authDomain": "",
+    "projectId": "",
+    "storageBucket": "",
 
     # Se usares autenticação com certificado:
     # "serviceAccount": "caminho/para/firebase-key.json"

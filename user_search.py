@@ -2,10 +2,10 @@ import pyrebase
 
 # Firebase configuration
 config = {
-  "apiKey": "AIzaSyAM25ZltTApK4lsyForPw4donBuM6RWC5E",
-  "authDomain": "users-lababerto.firebaseapp.com",
-  "databaseURL": "https://users-lababerto-default-rtdb.europe-west1.firebasedatabase.app/",
-  "storageBucket": "users-lababerto.appspot.com"
+  "apiKey": "",
+  "authDomain": "",
+  "databaseURL": "",
+  "storageBucket": ""
 }
 
 # Initialize Firebase

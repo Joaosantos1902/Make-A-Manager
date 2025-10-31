@@ -6,7 +6,7 @@ import time
 import sched
 import bambulabs_api as bl
 
-Central_API = "http://192.168.88.16:5000"
+Central_API = "Central_SERVER_IP"
 
 event_schedule = sched.scheduler(time.time, time.sleep)
 

@@ -5,9 +5,9 @@ import time
 import time
 import bambulabs_api as bl
 
-IP = '192.168.88.55'
-SERIAL = '00M09C410900073'
-ACCESS_CODE = '8cd18b23'
+IP = ''
+SERIAL = ''
+ACCESS_CODE = ''
 
 if __name__ == '__main__':
     print('Starting bambulabs_api example')

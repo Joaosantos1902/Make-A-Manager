@@ -19,132 +19,9 @@ prusalink_printer_job_path = "/api/v1/job"
 prusalink_printer_cameras_path = "/api/v1/cameras"
 
 
-#Switch1
-global switch1_df
-global switch1_nr_of_consecutive_empty_json
-global switch1_monitoring_status
-global switch1_curr_job_name
-global switch1_curr_job_file_path
-global switch1_switch_name
-global switch1_switch_type
-global switch1_API_key
-global switch1_host
-global switch1_switch_serial
-global switch1_switch_tb_id
-global switch1_switch_tb_access_token
-
-switch1_switch_name = "Switch1"
-switch1_switch_tb_id = "20f75dc0-67b1-11f0-bf00-9d4f62b6993c"
-switch1_switch_tb_access_token = "Jt9b1iDNMh0lKIcdKnn8"
 
 
-#BambuLabs Bambu7
-global iStartLab7_df
-global iStartLab7_nr_of_consecutive_empty_json
-global iStartLab7_monitoring_status
-global iStartLab7_curr_job_name
-global iStartLab7_curr_job_file_path
-global iStartLab7_printer_name
-global iStartLab7_printer_type
-global iStartLab7_API_key
-global iStartLab7_host
-global iStartLab7_printer_serial
-global iStartLab7_printer_tb_id
-global iStartLab7_printer_tb_access_token
-
-iStartLab7_host = "192.168.88.55"
-iStartLab7_API_key = "8cd18b23"
-iStartLab7_printer_name = "iStartLab7"
-iStartLab7_printer_type = "BambuLabs"
-iStartLab7_printer_serial = "00M09C410900073"
-iStartLab7_curr_job_name = ""
-iStartLab7_curr_job_file_path = ""
-iStartLab7_monitoring_status = 0
-iStartLab7_nr_of_consecutive_empty_json = 0
-iStartLab7_printer_tb_id = "4667c420-5350-11f0-bf00-9d4f62b6993c"
-iStartLab7_printer_tb_access_token = "S63hz4VIeCS8gBHPDVej"
-
-
-#BambuLabs Bambu8
-global iStartLab8_df
-global iStartLab8_nr_of_consecutive_empty_json
-global iStartLab8_monitoring_status
-global iStartLab8_curr_job_name
-global iStartLab8_curr_job_file_path
-global iStartLab8_printer_name
-global iStartLab8_printer_type
-global iStartLab8_API_key
-global iStartLab8_host
-global iStartLab8_printer_serial
-global iStartLab8_printer_tb_id
-global iStartLab8_printer_tb_access_token
-
-iStartLab8_host = "192.168.88.23"
-iStartLab8_API_key = "eaa60472"
-iStartLab8_printer_name = "iStartLab8"
-iStartLab8_printer_type = "BambuLabs"
-iStartLab8_printer_serial = "00M09C441701556"
-iStartLab8_curr_job_name = ""
-iStartLab8_curr_job_file_path = ""
-iStartLab8_monitoring_status = 0
-iStartLab8_nr_of_consecutive_empty_json = 0
-iStartLab8_printer_tb_id = "6496d120-5350-11f0-bf00-9d4f62b6993c"
-iStartLab8_printer_tb_access_token = "4jF7bJuSgD6XJEveBS45"
-
-
-# prusalink printer 4
-global iStartLab4_df
-global iStartLab4_nr_of_consecutive_empty_json
-global iStartLab4_monitoring_status
-global iStartLab4_curr_job_name
-global iStartLab4_curr_job_file_path
-global iStartLab4_printer_name
-global iStartLab4_printer_type
-global iStartLab4_API_key
-global iStartLab4_host
-global iStartLab4_printer_serial
-global iStartLab4_printer_tb_id
-global iStartLab4_printer_tb_access_token
-
-
-iStartLab4_host = "192.168.88.237"
-iStartLab4_printer_serial = ""
-iStartLab4_API_key = "fYZLUqyoWI5Grw"
-iStartLab4_printer_name = "iStartLab4"
-iStartLab4_printer_type = "Prusa"
-iStartLab4_curr_job_name = ""
-iStartLab4_curr_job_file_path = ""
-iStartLab4_monitoring_status = 0
-iStartLab4_nr_of_consecutive_empty_json = 0
-iStartLab4_printer_tb_id = "40ea8710-3a4d-11f0-bf00-9d4f62b6993c"
-iStartLab4_printer_tb_access_token = "ge2sDbHyuXYeM2RlJxIu"
-
-
-# prusalink printer 5
-global iStartLab5_df
-global iStartLab5_nr_of_consecutive_empty_json
-global iStartLab5_monitoring_status
-global iStartLab5_curr_job_name
-global iStartLab5_curr_job_file_path
-global iStartLab5_printer_name
-global iStartLab5_printer_type
-global iStartLab5_API_key
-global iStartLab5_host
-global iStartLab5_printer_serial
-
-iStartLab5_host = "192.168.88.238"
-iStartLab5_printer_serial = ""
-iStartLab5_API_key = "xan6_Bjm2AwSdg"
-iStartLab5_printer_name = "iStartLab5"
-iStartLab5_printer_type = "Prusa"
-iStartLab5_curr_job_name = ""
-iStartLab5_curr_job_file_path = ""
-iStartLab5_monitoring_status = 0
-iStartLab5_nr_of_consecutive_empty_json = 0
-iStartLab5_printer_tb_id = "4c093e90-363b-11f0-bf00-9d4f62b6993c"
-iStartLab5_printer_tb_access_token = "GnyRC9RXlrlH8JzgPB2m"
-
-# prusalink printer 6
+# Printer Example
 global iStartLab6_df
 global iStartLab6_nr_of_consecutive_empty_json
 global iStartLab6_monitoring_status
@@ -157,17 +34,21 @@ global iStartLab6_host
 global iStartLab6_printer_serial
 
 iStartLab6_host = "192.168.88.239"
-iStartLab6_printer_serial = ""
-iStartLab6_API_key = "XjHBd7bt_a8tkA"
+iStartLab6_printer_serial = "SERIAL_HERE"
+iStartLab6_API_key = ""
 iStartLab6_printer_name = "iStartLab6"
 iStartLab6_printer_type = "Prusa"
 iStartLab6_curr_job_name = ""
 iStartLab6_curr_job_file_path = ""
 iStartLab6_monitoring_status = 0 
 iStartLab6_nr_of_consecutive_empty_json = 0
-iStartLab6_printer_tb_id = "472de8a0-3a49-11f0-bf00-9d4f62b6993c"
-iStartLab6_printer_tb_access_token = "rmJnxe1YWdnFuVgSmeo0"
+iStartLab6_printer_tb_id = "ID_HERE"
+iStartLab6_printer_tb_access_token = "TOKEN_HERE"
 
+#switch Example
+switch1_switch_name = "Switch1"
+switch1_switch_tb_id = "ID_HERE"
+switch1_switch_tb_access_token = "TOKEN_HERE"
 
 
 class Printer:
@@ -185,11 +66,9 @@ class Printer:
         self.access_token = access_token
 
 
-iStartLab4 = Printer(iStartLab4_printer_name, iStartLab4_printer_type, iStartLab4_printer_tb_id, iStartLab4_host, iStartLab4_printer_serial, iStartLab4_API_key, iStartLab4_printer_tb_access_token)
-iStartLab5 = Printer(iStartLab5_printer_name, iStartLab5_printer_type, iStartLab5_printer_tb_id, iStartLab5_host, iStartLab5_printer_serial, iStartLab5_API_key, iStartLab5_printer_tb_access_token)
+
 iStartLab6 = Printer(iStartLab6_printer_name, iStartLab6_printer_type, iStartLab6_printer_tb_id, iStartLab6_host, iStartLab6_printer_serial, iStartLab6_API_key, iStartLab6_printer_tb_access_token)
-iStartLab7 = Printer(iStartLab7_printer_name, iStartLab7_printer_type, iStartLab7_printer_tb_id, iStartLab7_host, iStartLab7_printer_serial, iStartLab7_API_key, iStartLab7_printer_tb_access_token)
-iStartLab8 = Printer(iStartLab8_printer_name, iStartLab8_printer_type, iStartLab8_printer_tb_id, iStartLab8_host, iStartLab8_printer_serial, iStartLab8_API_key, iStartLab8_printer_tb_access_token)
+
 
 
 class Switch:
@@ -202,17 +81,17 @@ Switch1 = Switch(switch1_switch_name, switch1_switch_tb_id, switch1_switch_tb_ac
 # Create a list of switches
 switch_list = [Switch1]
 # Create a list of printers
-printer_list = [iStartLab4, iStartLab5, iStartLab6,iStartLab7, iStartLab8]
+printer_list = [ iStartLab6]
 
 #Make sure to set the Unify variable to True if you want to use the Unify Plugin
 Unify = True
 
 # Firebase configuration
 config = {
-  "apiKey": "AIzaSyCbgEGYvz4KUtg8wDDWtHCpXq7bDOgMVlc",
-  "authDomain": "rfid-whitelist.firebaseapp.com",
-  "databaseURL": "https://rfid-whitelist-default-rtdb.europe-west1.firebasedatabase.app/",
-  "storageBucket": "rfid-whitelist.appspot.com"
+  "apiKey": "",
+  "authDomain": "",
+  "databaseURL": "",
+  "storageBucket": ""
 }
 
 # Initialize Firebase
@@ -223,10 +102,10 @@ db = firebase.database()
 
 #Thingsboard token generator
 def getToken():
-    username = "joaolivramento@tecnico.ulisboa.pt"
-    password = "ZZbI6k6zOkMY9qKEHQlvhHzkB6WIzcfj"
+    username = ""
+    password = ""
     
-    url = "https://iot.istartlab.tecnico.ulisboa.pt/api/auth/login"
+    url = ""
     headers = {"Content-Type": "application/json", "Accept": "application/json"}
     loginJSON = {"username": username, "password": password}
     #print(loginJSON)

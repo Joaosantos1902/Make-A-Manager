@@ -7,10 +7,10 @@ import matplotlib.pyplot as plt
 
 #Thingsboard token generator
 def getToken():
-    username = "joaolivramento@tecnico.ulisboa.pt"
-    password = "ZZbI6k6zOkMY9qKEHQlvhHzkB6WIzcfj"
+    username = ""
+    password = ""
     
-    url = "https://iot.istartlab.tecnico.ulisboa.pt/api/auth/login"
+    url = ""
     headers = {"Content-Type": "application/json", "Accept": "application/json"}
     loginJSON = {"username": username, "password": password}
     #print(loginJSON)

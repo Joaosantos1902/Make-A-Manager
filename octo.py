@@ -5,7 +5,7 @@ printer_host = "192.168.50.179"
 path = "/api/v1/status"
 #path = "/api/v1/info"
 
-API_key = "fmR_VorvHS6nxg"
+API_key = ""
 
 
 r = requests.get('http://' + printer_host + path, headers = {'X-Api-Key': API_key})
